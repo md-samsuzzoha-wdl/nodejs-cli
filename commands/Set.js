@@ -33,7 +33,8 @@ class Set {
             name: "player",
             message: "Enter the index number which you want to remove! ==> ".cyan
         }]);
-        playerData.splice(indexNum, 1);
+        // console.log(indexNum.player);
+        playerData.splice(indexNum.player, 1);
         console.log("-------------------");
         playerData.forEach((pd_value, pd_index) => console.log(pd_index, pd_value));
     }
